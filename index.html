@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Data Siswa</title>
+</head>
+<body>
+    <h1>Form Input Data Siswa</h1>
+    <form id="dataForm">
+        <label for="nis">NIS:</label>
+        <input type="text" id="nis" name="nis"><br><br>
+
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="jenisKelamin">Jenis Kelamin:</label>
+        <select id="jenisKelamin" name="jenisKelamin">
+            <option value="Laki-Laki">Laki-Laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select><br><br>
+
+        <label for="kelas">Kelas:</label>
+        <input type="text" id="kelas" name="kelas"><br><br>
+
+        <label for="jurusan">Jurusan:</label>
+        <input type="text" id="jurusan" name="jurusan"><br><br>
+
+        <label for="noTelepon">Nomor Telepon:</label>
+        <input type="text" id="noTelepon" name="noTelepon"><br><br>
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat"></textarea><br><br>
+
+        <button type="button" onclick="submitData()">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
